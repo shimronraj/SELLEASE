@@ -1,0 +1,69 @@
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  background-color: #fff; /* Set background color to white or any preferred color */
+  margin-right: 15px;
+  padding: 13px;
+  max-width: 222px;
+  width: 222px;
+  height: 270px;
+  display: inline-block;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ff5252; /* or any other color you prefer */
+  font-size: 18px;
+}
+
+.image {
+  height: 140px; /* or any other preferred height */
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 15px;
+}
+
+.rate {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333; /* Set text color to a darker shade */
+}
+
+.category {
+  font-size: medium;
+  color: #555; /* Set text color to a slightly darker shade */
+}
+
+.name {
+  font-size: small;
+  color: #777; /* Set text color to a lighter shade */
+}
+
+.date {
+  padding: 10px;
+  text-align: right;
+  font-size: small;
+  color: #999; /* Set text color to an even lighter shade */
+}
+
+/* ... rest of your styles remain unchanged */

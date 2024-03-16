@@ -1,0 +1,196 @@
+/* Profile.css */
+
+.viewParentDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#nameCard {
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.rightSection {
+  flex: 1;
+  margin-left: 0;
+}
+
+/* Responsive layout adjustments */
+@media (min-width: 768px) {
+  .viewParentDiv {
+    flex-direction: row;
+  }
+
+  .leftSection {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .rightSection {
+    margin-left: 20px;
+  }
+}
+
+h1 {
+  color: #333;
+}
+
+button.goBackButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+button.goBackButton:hover {
+  background-color: #2980b9;
+}
+
+.removeButtonContainer {
+  display: flex;
+  gap: 70px;
+  padding-right: 10px;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+.removeButton {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.removeButton:hover {
+  background-color: #c0392b;
+}
+
+/* Add more styles as needed */
+/* prductcard */
+.productCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.productCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.productCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.productCard p {
+  margin: 0;
+  color: #333;
+}
+
+
+/* spacing between butttons edite */
+.buttonSpacing {
+  margin-right: 10px; /* Adjust the margin as needed */
+  padding: 20px;
+  
+}
+
+/* edite form style */
+.editForm {
+  
+  max-width: 300px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.editForm label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.editForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.editForm .errorText {
+  color: red;
+  margin-bottom: 12px;
+}
+
+.saveChangesButton {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveChangesButton:hover {
+  background-color: #45a049;
+}
+
+
+/* Add this to your existing CSS or create a new stylesheet */
+.editFormsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editForm {
+  /* Add any necessary styles for each form */
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Add any other styles as needed */
